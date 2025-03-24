@@ -103,6 +103,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .book_now button {
@@ -117,6 +118,7 @@ nav a:hover {
     text-shadow: 1px 1px 0px #555555;   
     opacity: 0.9;    
     border: none;
+    cursor: pointer;
 }
 
 .book_now button:hover {
