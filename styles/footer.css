@@ -1,0 +1,153 @@
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #DDD4BE;
+    color: #595959;
+}
+
+.container-footer {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    
+}
+
+.social {
+    padding: 0;
+    margin: 0;
+    display: flex;     
+    gap: .1rem;
+    /* background-color: bisque; */
+    flex-direction: column;
+    width: 330px;
+    
+}
+
+.social2 {
+    display: none;
+}
+.social-p {
+    margin: .6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+       
+}
+.social-p a {
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #595959;
+    width: 10rem;
+    /* padding: .2rem; */
+    
+    & div {
+        margin-left: .5rem;
+    }
+}
+
+.social-p a:hover {
+    background-color: #ddd5c3;
+    color: white;
+    /* padding: .5rem; */
+}
+
+.payment-methods {
+    width: 330px;
+}
+
+.payment-methods2 {
+    display: none;
+}
+
+.payment-methods i {
+    margin: .5rem;
+}
+
+.payment-methods i:hover {
+    background-color: #ddd5c3;
+    color: white;
+
+}
+
+.contact {
+    width: 330px;
+    /* background-color: aqua; */
+}
+address * {
+    padding: .3rem;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin-bottom: 2rem; */
+}
+
+.mapBox {    
+    position: relative;
+    background: #fff;
+    display: inline-block;
+}
+.mapBox iframe {
+    width: 290px;
+    height: 200px;
+}
+
+.copyright {
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+@media(max-width:1060px) {
+
+    /* #footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+    .container-footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social1 {
+        display: none;
+    }
+
+    .social2 {
+        display: block;
+    }
+
+    .payment-methods1 {
+        display: none;
+        
+    }
+
+    .payment-methods2 {
+        display: block;
+
+    }
+
+    .mapBox iframe {
+        width: 200px;
+        height: 150px;
+    }
+}

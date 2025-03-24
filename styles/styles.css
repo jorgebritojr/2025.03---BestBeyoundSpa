@@ -223,4 +223,12 @@ nav a:hover {
 }
 
 
+/* @media(max-width:1060px) {
+    .main-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+} */
 
