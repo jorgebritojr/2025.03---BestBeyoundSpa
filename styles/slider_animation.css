@@ -200,7 +200,13 @@ a {
     }
 }
 
- @media (max-width:576px) {
+ @media (max-width:600px) {
+
+    #testimonials {
+        padding-top: 8rem;
+
+    }
+
     .testimonial-box-container {
         /* width: 576px; */
         /* margin-left: calc(100vw/2); */

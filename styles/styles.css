@@ -255,25 +255,37 @@ nav a:hover {
 @media (max-width:600px) {
     .banner_headline h1 {
         font-size: 30px;             
-
     }
-    
         
     .banner_headline h2 {        
         font-size: 10px; 
+        margin-bottom: 1rem;
     }
 
     .book_now button {
         font-size: 20px;
     }
     .book_now button:hover {
-  
         font-size: 20px;
-           
     }
 
     .banner {
         /* height: auto; */
+    }
+    .banner1 {
+        /* background-size: 100px; */
+        /* height: 300px; */
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: 0;
+    }
+
+    .banner-1-content {
+        height: 250px;
+    }
+    
+    .banner2 {
+        /* display: none; */
     }
  
     .banner_headline {
@@ -281,19 +293,10 @@ nav a:hover {
         /* height: auto; */
     }
 
-.banner_option {
-    flex-direction: column;
-    height: auto;
-
-}
-}
-
-/* @media(max-width:1060px) {
-    .main-body {
-        display: flex;
+    .banner_option {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        height: auto;
     }
-} */
+}
+
 

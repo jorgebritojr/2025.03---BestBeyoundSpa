@@ -13,6 +13,7 @@
     width: 990px;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .about-davilla {
@@ -23,9 +24,7 @@
 
 .about-davilla-profile {
     width: 90%;
-    border-radius: 50%;
-
-    
+    border-radius: 50%;   
 
 }
 
@@ -37,7 +36,7 @@
     align-items: center;
     background-color: #DDD4BE;
     opacity: .9;
-    width: 800px;
+    /* width: 800px; */
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
@@ -51,6 +50,12 @@
         flex-direction: column;
         justify-content: center;
        
+    }
+
+    .banner_headline_inside_about {
+        display: flex;
+        /* background-color: aqua; */
+    
     }
 
     .banner_headline_about h1,
@@ -99,3 +104,60 @@
         margin-top: 2rem;
 
     }
+
+    @media(max-width:768px) {
+
+        .about-contact {
+            width: auto;
+        }
+        .about-page {
+            /* flex-direction: row; */
+            height: auto;
+            /* width: auto; */
+            padding-bottom: 2rem;
+        }
+
+        .banner_headline_inside_about {
+            flex-direction: column;
+            /* height: auto; */
+            width: auto;
+        }
+
+        .banner_headline_about h2 {          
+            font-size: 20;
+           
+        }
+
+        .headline-background {
+            width: 100%;   
+                    
+        }
+
+        .about-davilla {
+            padding: 2rem;
+            /* background-color: aqua; */
+            text-align: center;
+        
+        }
+        
+
+        .about-davilla-profile {
+            width: 90%;
+            border-radius: 50%;   
+        
+        }
+
+        .headline-background {
+            display: flex;
+            flex-direction: column;
+            background-color: #DDD4BE;
+            opacity: .9;
+            border-radius: 0;
+        }
+
+        .about-page-bottom {
+
+                    
+            }
+    
+}
