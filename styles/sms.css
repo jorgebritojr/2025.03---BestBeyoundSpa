@@ -1,0 +1,19 @@
+.sms-float {
+    position: fixed;
+    bottom: 150px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    font-weight: bold;
+    text-decoration: none;
+    font-family: sans-serif;
+    z-index: 999;
+    transition: background 0.3s;
+  }
+  
+  .sms-float:hover {
+    background-color: #128c7e;
+  }
