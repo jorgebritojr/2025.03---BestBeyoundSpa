@@ -127,12 +127,9 @@ address {
 
 @media(max-width:768px) {
 
-    /* #footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    } */
+    #footer {
+
+    }
     .container-footer {
         /* width: 768px; */
         flex-direction: column;

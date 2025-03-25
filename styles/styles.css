@@ -50,7 +50,7 @@ nav li {
     margin: 0;
 }
 
-nav ul {
+.menu nav ul {
     display: flex;
 }
 
@@ -224,6 +224,22 @@ nav a:hover {
     text-decoration: none;
 }
 
+.menu-mobile {
+    display: none;    
+    height: 40px;
+    width: 40px;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.mm-line {
+    height: 3px;
+    background-color: #DDD5C3;
+
+}
+
 
 @media(max-width:768px) {
 
@@ -249,6 +265,24 @@ nav a:hover {
         font-size: 30px;
     }
 
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        
+        
+    }
+
+    .menu-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
 
 }
 
@@ -272,6 +306,7 @@ nav a:hover {
     .banner {
         /* height: auto; */
     }
+
     .banner1 {
         /* background-size: 100px; */
         /* height: 300px; */
@@ -296,6 +331,37 @@ nav a:hover {
     .banner_option {
         flex-direction: column;
         height: auto;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    header .container {
+        /* flex-direction: column; */
+        /* align-items: end; */
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        
+        
+    }
+
+    .menu-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
     }
 }
 
