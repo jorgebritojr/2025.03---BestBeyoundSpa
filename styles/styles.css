@@ -174,7 +174,7 @@ nav a:hover {
 
 .banner1 {
     background-color: #ddd5c3;
-    background-image: url(/img/giftcard1.avif);
+    background-image: url(../img/giftcard1.avif);
     background-position: center;
     background-size: cover;
     cursor: pointer;
