@@ -1,0 +1,101 @@
+.about-page {
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/heroo-main.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-contact {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-davilla {
+    padding: 2rem;
+    /* background-color: aqua; */
+
+}
+
+.about-davilla-profile {
+    width: 90%;
+    border-radius: 50%;
+
+    
+
+}
+
+.headline-background,
+.about-page-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DDD4BE;
+    opacity: .9;
+    width: 800px;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+
+    }
+
+    .banner_headline_about{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+
+    .banner_headline_about h1,
+    .about-page-bottom h1 {
+        color: white;
+        font-size: 40px;
+        text-shadow: 1px 1px 0px #555555;  
+        margin: 0;
+        padding: 0;
+        /* padding-left: 2.5rem; */
+        max-width: 450px;
+        /* background-color: aqua; */
+    }
+
+    .banner_headline_about h2 {
+        color: white;
+        font-size: 20px;
+        text-shadow: 1px 1px 0px #555555;    
+        margin: 0;
+        padding: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        max-width: 450px;
+        margin-top: 30px;
+        text-align: justify;
+        /* background-color: aqua; */
+    }
+
+    .about-page-bottom h2 {
+        color: white;
+        font-size: 20px;
+        text-shadow: 1px 1px 0px #555555;    
+        margin: 0;
+        padding: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        max-width: 800px;
+        margin-top: 30px;
+        text-align: center;
+        /* background-color: aqua; */
+    }
+
+    .about-page-bottom {
+        margin-top: 2rem;
+
+    }

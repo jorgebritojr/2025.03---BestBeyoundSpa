@@ -112,6 +112,12 @@ address * {
     align-items: center;
     font-weight: bold;
     font-size: 1.2rem;
+
+    & a {
+        text-decoration: none;
+        color: #595959;
+
+    }
 }
 
 @media(max-width:1060px) {

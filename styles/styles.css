@@ -71,13 +71,12 @@ nav a:hover {
 
 /* Section banner geral */
 
-#banner {
+.banner {
     display: flex;
     justify-content: center;
-    background-image: url(/assets/heroo-main.jpg);
+    background-image: url(../assets/heroo-main.jpg);
     background-position: center;
     background-size: cover;
-    /* height: 670px; */
     height: 800px;
 }
 
@@ -95,6 +94,7 @@ nav a:hover {
 .banner_headline_inside {
     display: flex;
     /* background-color: aqua; */
+
 }
 
 .book_now {

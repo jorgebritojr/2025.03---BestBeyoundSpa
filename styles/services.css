@@ -1,0 +1,96 @@
+.banner-service-main {
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/heroo-main.jpg);
+    background-position: top;
+    background-size: 100% 800px;
+    background-repeat: repeat-y;
+    color: #595959;
+    padding-bottom: 1rem;
+    
+}
+
+
+.banner-service {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 990px;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.banner-service-aside{
+    background-color: #DDD4BE;
+    opacity: .9;
+    height: 700px;
+    
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    & a {
+        padding: .5rem;
+        display: block;
+        text-decoration: none;
+        color: #595959;
+        font-weight: bold;
+    }
+
+    & a:hover {
+        background-color: #948679;
+        color: white;
+   }
+
+   & .active {
+    background-color: #948679;
+    color: white;
+
+   }
+}
+
+.aside-main {
+    gap: 1rem;
+    flex: 1;
+}
+
+.main {
+    justify-content: start;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 100%;
+   
+    
+}
+
+.main-services {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    
+}
+
+.main-service-only {
+    width: 200px;
+    padding: 1rem;
+    background-color: #DDD4BE;
+    opacity: .9;
+
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    
+}
+.img-service {
+    height: 134px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.btn {
+
+}
