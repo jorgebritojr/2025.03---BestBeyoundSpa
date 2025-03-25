@@ -84,13 +84,18 @@
 }
 address * {
     padding: .3rem;
+    font-family: "Playfair Display", serif;
+    font-style: normal;
 }
 
-.address {
+address {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
     /* margin-bottom: 2rem; */
+    gap: .5rem;
+    
 }
 
 .mapBox {    
@@ -104,7 +109,7 @@ address * {
 }
 
 .copyright {
-    height: 50px;
+    height: 100px;
     width: 100%;
     background-color: #fff;
     display: flex;

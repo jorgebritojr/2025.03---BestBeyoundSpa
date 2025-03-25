@@ -85,19 +85,19 @@ a {
     cursor: pointer;
 }
 
-/* .testimonial-box:nth-child(1) {
-    flex: 2fr;
+.testimonial-box:nth-child(1) {
+    order: 1;
 }
 
 .testimonial-box:nth-child(2) {
-    flex: 2fr;
+    
 }
 .testimonial-box:nth-child(3) {
-    flex: 2fr;
+    
 }
 .testimonial-box:nth-child(4) {
-    flex: 2fr;
-} */
+
+}
 
 .profile-img {
     width: 50px;
