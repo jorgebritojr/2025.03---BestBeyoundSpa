@@ -151,35 +151,15 @@ a {
 @media(max-width:1024px) {
 
     .testimonial-box-container {
-        /* width: 1024px; */
-        /* padding-left: calc(100vw/2); */
-        /* flex-wrap: wrap; */
         flex-direction: row;
         height: auto;
-    }
+    }   
 
-    
-    .testimonial-box {
-        /* width: 45%; */
-        /* width: 95%; */
-        /* width: auto; */
-        /* padding: 10px; */       
-        
-    }
 }
 
-@media (max-width:768px) {
-
-    
-
+@media (max-width:768px) {    
     .menu {
         /* fon */
-    }
-
-    .testimonial-box-container {
-        /* width: 768px; */
-        /* padding-left: calc(100vw/2); */
-
     }
 
     .testimonial-box {
@@ -197,7 +177,7 @@ a {
  @media (max-width:600px) {
 
     #testimonials {
-        padding-top: 8rem;
+        padding-top: 9rem;
 
     }
 
