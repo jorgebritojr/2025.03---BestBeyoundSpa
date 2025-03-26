@@ -1,6 +1,6 @@
-.sms-float {
+.book-now {
     position: fixed;
-    bottom: 100px;
+    bottom: 160px;
     right: 30px;
     background-color: #25d366;
     color: white;
@@ -12,8 +12,14 @@
     font-family: sans-serif;
     z-index: 999;
     transition: background 0.3s;
+    background-color: #e5d1b7;
+    color: white;
+    text-shadow: 1px 1px 0px #555555;   
   }
   
-  .sms-float:hover {
-    background-color: #128c7e;
+  .book-now:hover {
+    /* background-color: #128c7e; */
+    background-color: #e5d1b7;
+    color: #595959;
+    text-shadow: 1px 1px 0px #555555;   
   }
