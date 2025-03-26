@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="styles/index.css"> <!--Ajustar a pasta para a página correta-->
     <link rel="stylesheet" href="../styles/index.css">
     <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon"> <!--Ajustar a pasta para a página correta-->
+    <script type="text/javascript">
+      window.onload = function() {
+        document.querySelector(".menu-mobile").addEventListener("click", function(){
+          if (document.querySelector(".menu nav ul").style.display == 'flex') {
+            document.querySelector(".menu nav ul").style.display = 'none';
+          } else {
+            document.querySelector(".menu nav ul").style.display = 'flex';
+          }
+        });
+
+      };
+    </script>
   </head>
   <body class="main-body">
 

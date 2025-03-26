@@ -236,7 +236,6 @@ nav a:hover {
 .mm-line {
     height: 3px;
     background-color: #DDD5C3;
-
 }
 
 
@@ -251,11 +250,9 @@ nav a:hover {
     }
 
     .banner_headline h1 {
-        font-size: 40px;             
-
+        font-size: 40px;      
     }
-    
-        
+            
     .banner_headline h2 {        
         font-size: 20px; 
     }
@@ -264,7 +261,7 @@ nav a:hover {
         font-size: 30px;
     }
 
-    nav ul {
+    .menu nav ul {
         flex-direction: column;
         display: none;
         position: absolute;
@@ -272,15 +269,16 @@ nav a:hover {
         width: 100%;
         background-color: white;
         z-index: 1;
-        
-        
+    }
+    
+    header {
+        height: auto;
     }
 
     .menu-mobile {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-
     }
 
 }
@@ -318,9 +316,9 @@ nav a:hover {
         height: auto;
     }
 
-    header {
+    /* header {
         height: auto;
-    }
+    } */
 
     .logo {
         padding-left: 20px;
