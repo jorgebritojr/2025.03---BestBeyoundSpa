@@ -119,6 +119,7 @@ nav a:hover {
     opacity: 0.9;    
     border: none;
     cursor: pointer;
+
 }
 
 .book_now button:hover {
@@ -240,6 +241,10 @@ nav a:hover {
 
 }
 
+@media(min-width:769px) {
+
+}
+
 
 @media(max-width:768px) {
 
@@ -272,6 +277,7 @@ nav a:hover {
         left: 0;
         width: 100%;
         background-color: white;
+        z-index: 1;
         
         
     }
@@ -280,6 +286,7 @@ nav a:hover {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+
 
     }
 
@@ -303,9 +310,6 @@ nav a:hover {
         font-size: 20px;
     }
 
-    .banner {
-        /* height: auto; */
-    }
 
     .banner1 {
         /* background-size: 100px; */
@@ -339,11 +343,6 @@ nav a:hover {
 
     .logo {
         padding-left: 20px;
-    }
-
-    header .container {
-        /* flex-direction: column; */
-        /* align-items: end; */
     }
 
     nav ul {

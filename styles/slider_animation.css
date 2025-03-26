@@ -32,7 +32,7 @@ a {
     & h1 {
         color: #6a645c;
         padding: 0;
-        margin: 0;
+        margin: 1rem;
         margin-top: 1rem;
         font-size: 2.2rem;
         font-weight: 500;
@@ -57,31 +57,25 @@ a {
 }
 
 .testimonial-box-container {
-    /* background-color: aqua; */
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /* width: 800px; */
-    /* width: 100%; */
-    /* width: 990px; */
-    /* object-fit: contain; */
-    /* width: calc(100% -35px); */
-    /* width: auto; */
     height: 700px;
-   
+    gap: 1rem;
 
     
     }
 
 .testimonial-box {
-    width: auto;
+    width: 420px;
         
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     padding: 20px;
-    margin: 15px;
+    /* margin: 15px; */
     cursor: pointer;
 }
 
